@@ -8,7 +8,8 @@
     "start": "react-scripts start",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -16,12 +17,12 @@
     "@react-three/fiber": "^8.11.1",
     "framer-motion": "^9.0.7",
     "maath": "^0.5.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "react-multi-carousel": "^2.8.1",
+    "react-parallax-tilt": "^1.7.271",
     "react-router-dom": "^6.8.1",
-    "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.149.0"
   },
