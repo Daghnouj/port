@@ -6,8 +6,9 @@ export default defineConfig({
   plugins: [react()],
   base: '/raouia/',
   build: {
+    outDir: 'dist',
     rollupOptions: {
-      external: ['react-tilt', 'react-tilt-3d']
+      external: ['react-tilt', 'react-tilt-3d'],
     }
   }
 })
