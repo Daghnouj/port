@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      external: ['react-tilt', 'react-tilt-3d'],
+      external: [],
     }
   }
 })
